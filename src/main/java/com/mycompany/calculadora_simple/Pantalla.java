@@ -1,12 +1,9 @@
-
 package com.mycompany.calculadora_simple;
-
-/**
- *
- * @author Fsociety
- */
+//@author Fsociety
 public class Pantalla extends javax.swing.JFrame {
-
+private double numero1;
+private double numero2;
+private char operacion;
     public Pantalla() {
         initComponents();
         setLocationRelativeTo(null);
@@ -185,6 +182,11 @@ public class Pantalla extends javax.swing.JFrame {
 
         jButton16.setText(".");
         jButton16.setToolTipText("");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton16);
         jButton16.setBounds(230, 270, 40, 24);
 
@@ -225,6 +227,11 @@ public class Pantalla extends javax.swing.JFrame {
         jButton20.setBounds(30, 270, 50, 24);
 
         jButton21.setText("+/-");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton21);
         jButton21.setBounds(90, 340, 50, 24);
 
@@ -257,11 +264,16 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        numero1=Double.parseDouble(Ingreso.getText());
+        numero1 *=numero1;
+        Ingreso.setText(String.valueOf(numero1));
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+       numero1=Double.parseDouble(Ingreso.getText());
+        numero1 =Math.sqrt(numero1);
+        Ingreso.setText(String.valueOf(numero1));
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -312,6 +324,16 @@ public class Pantalla extends javax.swing.JFrame {
         //Boton#9
         agregarTexto("9");
     }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        //Boton#.
+        agregarTexto(".");
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        //Boton
+        Ingreso.setText("-"+Ingreso.getText());
+    }//GEN-LAST:event_jButton21ActionPerformed
 
    
 
