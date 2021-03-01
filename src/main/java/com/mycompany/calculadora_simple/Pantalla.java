@@ -77,7 +77,7 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(40, 130, 50, 25);
+        jButton1.setBounds(40, 130, 50, 24);
 
         jButton4.setText("C");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -86,7 +86,7 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(200, 130, 50, 25);
+        jButton4.setBounds(200, 130, 50, 24);
 
         jButton5.setText("^1/2");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -95,7 +95,7 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton5);
-        jButton5.setBounds(90, 130, 60, 25);
+        jButton5.setBounds(90, 130, 60, 24);
 
         jButton3.setText("CE");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -104,19 +104,19 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(150, 130, 50, 25);
+        jButton3.setBounds(150, 130, 50, 24);
 
         jButton6.setText("1");
         getContentPane().add(jButton6);
-        jButton6.setBounds(50, 190, 40, 25);
+        jButton6.setBounds(50, 190, 40, 24);
 
         jButton7.setText("2");
         getContentPane().add(jButton7);
-        jButton7.setBounds(90, 190, 40, 25);
+        jButton7.setBounds(90, 190, 40, 24);
 
         jButton8.setText("3");
         getContentPane().add(jButton8);
-        jButton8.setBounds(130, 190, 40, 25);
+        jButton8.setBounds(130, 190, 40, 24);
 
         jButton9.setText("+");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -125,23 +125,23 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton9);
-        jButton9.setBounds(170, 190, 40, 25);
+        jButton9.setBounds(170, 190, 40, 24);
 
         jButton10.setText("-");
         getContentPane().add(jButton10);
-        jButton10.setBounds(210, 190, 40, 25);
+        jButton10.setBounds(210, 190, 40, 24);
 
         jButton11.setText("4");
         getContentPane().add(jButton11);
-        jButton11.setBounds(50, 230, 40, 25);
+        jButton11.setBounds(50, 230, 40, 24);
 
         jButton12.setText("5");
         getContentPane().add(jButton12);
-        jButton12.setBounds(90, 230, 40, 25);
+        jButton12.setBounds(90, 230, 40, 24);
 
         jButton13.setText("6");
         getContentPane().add(jButton13);
-        jButton13.setBounds(130, 230, 40, 25);
+        jButton13.setBounds(130, 230, 40, 24);
 
         jButton14.setText("*");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -150,24 +150,24 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton14);
-        jButton14.setBounds(170, 230, 40, 25);
+        jButton14.setBounds(170, 230, 40, 24);
 
         jButton15.setText("/");
         getContentPane().add(jButton15);
-        jButton15.setBounds(210, 230, 40, 25);
+        jButton15.setBounds(210, 230, 40, 24);
 
         jButton16.setText(".");
         jButton16.setToolTipText("");
         getContentPane().add(jButton16);
-        jButton16.setBounds(210, 270, 40, 25);
+        jButton16.setBounds(210, 270, 40, 24);
 
         jButton17.setText("8");
         getContentPane().add(jButton17);
-        jButton17.setBounds(90, 270, 40, 25);
+        jButton17.setBounds(90, 270, 40, 24);
 
         jButton18.setText("9");
         getContentPane().add(jButton18);
-        jButton18.setBounds(130, 270, 40, 25);
+        jButton18.setBounds(130, 270, 40, 24);
 
         jButton19.setText("0");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -176,19 +176,19 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton19);
-        jButton19.setBounds(170, 270, 40, 25);
+        jButton19.setBounds(170, 270, 40, 24);
 
         jButton20.setText("7");
         getContentPane().add(jButton20);
-        jButton20.setBounds(50, 270, 40, 25);
+        jButton20.setBounds(50, 270, 40, 24);
 
         jButton21.setText("+/-");
         getContentPane().add(jButton21);
-        jButton21.setBounds(70, 340, 50, 25);
+        jButton21.setBounds(70, 340, 50, 24);
 
         jButton22.setText("=");
         getContentPane().add(jButton22);
-        jButton22.setBounds(120, 340, 79, 25);
+        jButton22.setBounds(120, 340, 79, 24);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
