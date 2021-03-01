@@ -14,7 +14,7 @@ public class Pantalla extends javax.swing.JFrame {
     }
     
     private void agregarTexto(String texto){
-        
+        Ingreso.setText(Ingreso.getText()+texto);
     }
 
     /**
@@ -104,16 +104,31 @@ public class Pantalla extends javax.swing.JFrame {
         jButton3.setBounds(150, 130, 50, 24);
 
         jButton6.setText("1");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton6);
-        jButton6.setBounds(50, 190, 40, 24);
+        jButton6.setBounds(30, 190, 50, 24);
 
         jButton7.setText("2");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton7);
-        jButton7.setBounds(90, 190, 40, 24);
+        jButton7.setBounds(80, 190, 50, 24);
 
         jButton8.setText("3");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton8);
-        jButton8.setBounds(130, 190, 40, 24);
+        jButton8.setBounds(130, 190, 50, 24);
 
         jButton9.setText("+");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -122,23 +137,38 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton9);
-        jButton9.setBounds(170, 190, 40, 24);
+        jButton9.setBounds(180, 190, 40, 24);
 
         jButton10.setText("-");
         getContentPane().add(jButton10);
-        jButton10.setBounds(210, 190, 40, 24);
+        jButton10.setBounds(220, 190, 40, 24);
 
         jButton11.setText("4");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton11);
-        jButton11.setBounds(50, 230, 40, 24);
+        jButton11.setBounds(30, 230, 50, 24);
 
         jButton12.setText("5");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton12);
-        jButton12.setBounds(90, 230, 40, 24);
+        jButton12.setBounds(80, 230, 50, 24);
 
         jButton13.setText("6");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton13);
-        jButton13.setBounds(130, 230, 40, 24);
+        jButton13.setBounds(130, 230, 50, 24);
 
         jButton14.setText("*");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -147,24 +177,34 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton14);
-        jButton14.setBounds(170, 230, 40, 24);
+        jButton14.setBounds(180, 230, 40, 24);
 
         jButton15.setText("/");
         getContentPane().add(jButton15);
-        jButton15.setBounds(210, 230, 40, 24);
+        jButton15.setBounds(220, 230, 40, 24);
 
         jButton16.setText(".");
         jButton16.setToolTipText("");
         getContentPane().add(jButton16);
-        jButton16.setBounds(210, 270, 40, 24);
+        jButton16.setBounds(230, 270, 40, 24);
 
         jButton17.setText("8");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton17);
-        jButton17.setBounds(90, 270, 40, 24);
+        jButton17.setBounds(80, 270, 50, 24);
 
         jButton18.setText("9");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton18);
-        jButton18.setBounds(130, 270, 40, 24);
+        jButton18.setBounds(130, 270, 50, 24);
 
         jButton19.setText("0");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -173,19 +213,24 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton19);
-        jButton19.setBounds(170, 270, 40, 24);
+        jButton19.setBounds(180, 270, 50, 24);
 
         jButton20.setText("7");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton20);
-        jButton20.setBounds(50, 270, 40, 24);
+        jButton20.setBounds(30, 270, 50, 24);
 
         jButton21.setText("+/-");
         getContentPane().add(jButton21);
-        jButton21.setBounds(70, 340, 50, 24);
+        jButton21.setBounds(90, 340, 50, 24);
 
         jButton22.setText("=");
         getContentPane().add(jButton22);
-        jButton22.setBounds(120, 340, 79, 24);
+        jButton22.setBounds(140, 340, 79, 24);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -207,7 +252,8 @@ public class Pantalla extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        // TODO add your handling code here:
+        //Boton#0
+        agregarTexto("0");
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -221,6 +267,51 @@ public class Pantalla extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // Boton#1
+        agregarTexto("1");
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // Boton#2
+        agregarTexto("2");
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // Boton#3
+        agregarTexto("3");
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        //Boton#4
+        agregarTexto("4");
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        //Boton#5
+        agregarTexto("5");
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        //Boton#6
+        agregarTexto("6");
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        //Boton#7
+        agregarTexto("7");
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        //Boton#8
+        agregarTexto("8");
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        //Boton#9
+        agregarTexto("9");
+    }//GEN-LAST:event_jButton18ActionPerformed
 
    
 
